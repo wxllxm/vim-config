@@ -4,7 +4,7 @@ Important Keybindings:
 Find Files = Leader + ff
 Find Text = Leader + ft
 Find Buffers = Leader + fb
-Find Directories = Leader + fd
+Find Project  = Leader + fp
 
 Open Terminal = Leader + t
-Open File Tree = Leader + ot
+Open File Tree = Leader + f 
