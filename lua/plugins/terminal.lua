@@ -8,7 +8,7 @@ return {
         width = 0.9,
       },
     })
-    vim.keymap.set('n', '<Leader>ot', '<CMD>lua require("FTerm").toggle()<CR>')
+    vim.keymap.set('n', '<Leader>t', '<CMD>lua require("FTerm").toggle()<CR>')
     vim.keymap.set('t', '<esc>', '<C-\\><C-n><CMD>lua require("FTerm").toggle()<CR>')
   end
 }
