@@ -7,7 +7,7 @@ return {
     "MunifTanjim/nui.nvim",
   },
   config = function()
-    vim.keymap.set("n", "<Leader>f", ":Neotree position=float<CR>", {})
+    vim.keymap.set("n", "<Leader>t", ":Neotree position=float<CR>", {})
     position = "float"
   end,
 }

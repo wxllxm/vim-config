@@ -1,9 +1,11 @@
 return {
   "coffebar/neovim-project",
   opts = {
-    projects = { 
-      "~/projects/*",
-      "~/.config/*",
+    projects = {
+      "~/Brain/*",
+      "~/Projects/*",
+      "~/Sandbox/*",
+      "~/.config/nvim",
     },
   },
   init = function()
