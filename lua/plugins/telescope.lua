@@ -9,6 +9,7 @@ return {
     config = function()
       require("telescope").setup({
         defaults = {
+          file_ignore_patterns = { "node_modules" },
           mappings = {
             n = {
               ['<c-d>'] = require('telescope.actions').delete_buffer
